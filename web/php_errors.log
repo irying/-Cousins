@@ -1,0 +1,30 @@
+[11-Jan-2017 11:50:23 PRC] PHP Fatal error:  Class 'Route' not found in D:\www\mysym\src\app.php on line 17
+[11-Jan-2017 11:50:23 PRC] PHP Stack trace:
+[11-Jan-2017 11:50:23 PRC] PHP   1. {main}() D:\www\mysym\web\front.php:0
+[11-Jan-2017 11:50:23 PRC] PHP   2. include() D:\www\mysym\web\front.php:21
+[11-Jan-2017 11:50:42 PRC] PHP Warning:  call_user_func() expects parameter 1 to be a valid callback, no array or string given in D:\www\mysym\web\front.php on line 29
+[11-Jan-2017 11:50:42 PRC] PHP Stack trace:
+[11-Jan-2017 11:50:42 PRC] PHP   1. {main}() D:\www\mysym\web\front.php:0
+[11-Jan-2017 11:50:42 PRC] PHP   2. call_user_func:{D:\www\mysym\web\front.php:29}() D:\www\mysym\web\front.php:29
+[11-Jan-2017 11:50:42 PRC] PHP Fatal error:  Call to a member function send() on a non-object in D:\www\mysym\web\front.php on line 36
+[11-Jan-2017 11:50:42 PRC] PHP Stack trace:
+[11-Jan-2017 11:50:42 PRC] PHP   1. {main}() D:\www\mysym\web\front.php:0
+[11-Jan-2017 11:55:30 PRC] PHP Fatal error:  Cannot redeclare render_template() (previously declared in D:\www\mysym\web\front.php:11) in D:\www\mysym\src\app.php on line 24
+[11-Jan-2017 11:55:30 PRC] PHP Stack trace:
+[11-Jan-2017 11:55:30 PRC] PHP   1. {main}() D:\www\mysym\web\front.php:0
+[11-Jan-2017 12:03:14 PRC] PHP Fatal error:  Cannot redeclare is_leap_year() (previously declared in D:\www\mysym\web\front.php:21) in D:\www\mysym\src\app.php on line 14
+[11-Jan-2017 12:03:14 PRC] PHP Stack trace:
+[11-Jan-2017 12:03:14 PRC] PHP   1. {main}() D:\www\mysym\web\front.php:0
+[11-Jan-2017 15:40:12 PRC] PHP Warning:  require_once(D:\www\mysym\web/../vendor/.composer/autoload.php): failed to open stream: No such file or directory in D:\www\mysym\web\front.php on line 5
+[11-Jan-2017 15:40:12 PRC] PHP Stack trace:
+[11-Jan-2017 15:40:12 PRC] PHP   1. {main}() D:\www\mysym\web\front.php:0
+[11-Jan-2017 15:40:12 PRC] PHP Fatal error:  require_once(): Failed opening required 'D:\www\mysym\web/../vendor/.composer/autoload.php' (include_path='.;C:\php\pear') in D:\www\mysym\web\front.php on line 5
+[11-Jan-2017 15:40:12 PRC] PHP Stack trace:
+[11-Jan-2017 15:40:12 PRC] PHP   1. {main}() D:\www\mysym\web\front.php:0
+[11-Jan-2017 15:40:19 PRC] PHP Fatal error:  Class 'Simplex\Framework' not found in D:\www\mysym\web\front.php on line 29
+[11-Jan-2017 15:40:19 PRC] PHP Stack trace:
+[11-Jan-2017 15:40:19 PRC] PHP   1. {main}() D:\www\mysym\web\front.php:0
+[11-Jan-2017 16:42:18 PRC] PHP Catchable fatal error:  Argument 1 passed to Simplex\Framework::__construct() must be an instance of Symfony\Component\EventDispatcher\EventDispatcher, instance of Symfony\Component\Routing\Matcher\UrlMatcher given, called in D:\www\mysym\web\front.php on line 26 and defined in D:\www\mysym\src\Simplex\Framework.php on line 20
+[11-Jan-2017 16:42:18 PRC] PHP Stack trace:
+[11-Jan-2017 16:42:18 PRC] PHP   1. {main}() D:\www\mysym\web\front.php:0
+[11-Jan-2017 16:42:18 PRC] PHP   2. Simplex\Framework->__construct() D:\www\mysym\web\front.php:26
